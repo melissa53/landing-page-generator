@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "start": "npm run build && vite preview",
     "scrape": "tsx scripts/scrape-media.ts"
   },
   "dependencies": {
